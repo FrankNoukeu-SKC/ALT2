@@ -1,0 +1,13 @@
+# ALT2
+
+import statistics
+#you could add the date, your name etc.
+Results = [88, 75, 75, 60, 95, 70, 85,]
+mean = statistics.mean(Results)
+median = statistics.median(Results)
+spread = statistics.stdev(Results)
+mode = statistics.mode(Results)
+print(mean)
+print(median)
+print(spread)
+print(mode)
