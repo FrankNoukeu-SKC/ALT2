@@ -11,3 +11,16 @@ print(mean)
 print(median)
 print(spread)
 print(mode)
+
+#ALT2 for rounding figures to the nearest whole number
+import statistics
+#you could add the date, your name etc.
+Results = [88, 75, 75, 60, 95, 70, 85,]
+mean = round(statistics.mean(Results))
+median = round(statistics.median(Results))
+spread = round(statistics.stdev(Results))
+mode = round(statistics.mode(Results))
+print(mean)
+print(median)
+print(spread)
+print(mode)
