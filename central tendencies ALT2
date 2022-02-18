@@ -1,4 +1,4 @@
-# ALT2
+# Version1 (standard)
 
 import statistics
 #you could add the date, your name etc.
@@ -12,7 +12,7 @@ print(median)
 print(spread)
 print(mode)
 
-#ALT2 for rounding figures to the nearest whole number
+#Version2 (for rounding figures to the nearest whole number)
 import statistics
 #you could add the date, your name etc.
 Results = [88, 75, 75, 60, 95, 70, 85,]
